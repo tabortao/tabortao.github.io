@@ -1,0 +1,56 @@
+{{ define "body-class" }}template-archives{{ end }}
+{{ define "main" }}
+    <header>
+        {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "categories" -}}
+        {{- $terms := $taxonomy.Pages -}}
+        {{ if $terms }}
+        <h2 class="section-title">{{ $taxonomy.Title }}</h2>
+        <div class="subsection-list">
+            <div class="article-list--tile">
+                {{ range $terms }}
+                    {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "taxonomy") }}
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </header>
+    
+    <!-- 在归档页增加标签云Tags -->
+    {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "tags" -}}
+    {{- $terms := $taxonomy.Pages -}}
+    {{ if $terms }}
+    <section class="widget tagCloud">
+    <h2 class="section-title">{{ $taxonomy.Title }}</h2>
+
+        <div class="tagCloud-tags">
+            {{ if ne (len $.Site.Taxonomies.tags) 0 }}
+                {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+                    {{ $tagCount := len $taxonomy.Pages }}
+                    <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}" class="tagCloud-tags">
+                        {{ $name }}<span class="tagCloud-count">{{ $tagCount }}</span>
+                    </a>
+                {{ end }}
+            {{ end }}
+        </div>
+    <section>
+    {{ end }}
+
+
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
+    {{ $filtered := ($pages | intersect $notHidden) }}
+
+    {{ range $filtered.GroupByDate "2006" }}
+    {{ $id := lower (replace .Key " " "-") }}
+    <div class="archives-group" id="{{ $id }}">
+        <h2 class="archives-date section-title"><a href="{{ $.RelPermalink }}#{{ $id }}">{{ .Key }}</a></h2>
+        <div class="article-list--compact">
+            {{ range .Pages }}
+                {{ partial "article-list/compact" . }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}

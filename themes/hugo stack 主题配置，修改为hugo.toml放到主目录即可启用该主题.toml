@@ -1,0 +1,81 @@
+baseURL = 'https://tabortao.github.io/hugo-stack/'
+languageCode = 'zh-cn'
+title = 'Peach'
+
+defaultContentLanguage = "zh-cn"
+theme = "hugo-theme-stack"
+
+hasCJKLanguage = true
+
+# 主菜单配置
+[menu]
+    main = [
+        {identifier = "home", name = "主页", url = "/", weight = 1, params = {icon = "home"}},
+        {identifier = "about", name = "关于", url = "/about", weight = 2, params = {icon = "user"}}
+    ]
+
+[params]
+    mainSections = ["posts"]
+    featuredImageField = "image"
+    rssFullContent = true
+    favicon = "img/peach-icon.svg"
+
+    [params.article]
+        headingAnchor = false
+        math = false
+        toc = true
+        readingTime = true
+
+    [params.sidebar]
+        emoji = "🍑"
+        subtitle = "分享技术，记录生活"
+
+        [params.sidebar.avatar]
+            enabled = true
+            local = true
+            src = "img/avatar.png"
+
+    [params.widgets]
+        homepage = [{type = "search"}, {type = "archives"}, {type = "tag-cloud"}]
+        page = [{type = "toc"}]
+
+        [params.widgets.archives]
+            limit = 5
+
+        [params.widgets.tagCloud]
+            limit = 10
+
+    [params.colorScheme]
+        toggle = true
+        default = "auto"
+
+    [params.footer]
+        since = 2025
+        customText = "欢迎访问Peach的博客"
+
+    [params.dateFormat]
+        published = "2006年01月02日"
+        lastUpdated = "2006年01月02日 15:04"
+
+[markup]
+    [markup.highlight]
+        noClasses = false
+        lineNos = true
+        lineNumbersInTable = true
+        tabWidth = 4
+
+    [markup.tableOfContents]
+        endLevel = 4
+        ordered = false
+        startLevel = 2
+
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+        [markup.goldmark.parser]
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+
+[pagination]
+pagerSize = 5
