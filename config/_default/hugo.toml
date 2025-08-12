@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://tabortao.github.io "
+baseURL = "https://tabortao.github.io"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 pluralizeListTitles = "true" 
