@@ -53,8 +53,10 @@ git push -u origin main
    - **构建命令**: `hugo --minify`
      （如需环境变量或自定义参数，见下方高级配置）
    - **构建输出目录**: `public`（Hugo 默认生成目录）
+   - **变量名称**: `HUGO_VERSION`，`0.146.0`（Hugo 版本，与本地环境一致）
 
-![cloudflare设置](https://cdn.jsdelivr.net/gh/tabortao/imagebed/2025/20250812162919494.webp)
+![cloudflare设置](https://cdn.jsdelivr.net/gh/tabortao/imagebed/2025/20250812183144063.webp)
+
 
 4. **点击 "Save and Deploy"**
    Cloudflare 会自动拉取仓库并构建 Hugo 网站。

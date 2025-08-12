@@ -89,6 +89,11 @@ data-website-id="XXXXXX"></script>
 
 4. 登录 https://cloud.umami.is/ 查看统计数据.
 
+## 自动部署
+
+- 仓库-设置-Pages
+- Build and deployment 选择`gh-pages`，点击保存，这样就会使用 GitHub Action 来自动部署项目到`gh-pages`分支
+
 ## 参考文章
 
 1. [安装和配置 blowfish 主题](https://blog.opsnull.com/emacs/blowfish-theme/)
