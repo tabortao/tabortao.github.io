@@ -26,7 +26,7 @@ isCJKLanguage: true
 
 ## 封面图
 
-![20250815171146_PixPin](assets/20250815171146_PixPin-20250815171208-q8g7sqy.webp)
+![20250815171146_PixPin](/images/2025/20250815171146_PixPin-20250815171208-q8g7sqy.webp)
 
 上周六带儿子去爬了阳台山森林公园，龙溪桥溯溪非常好玩，夏天避暑好去处。
 
@@ -48,7 +48,7 @@ isCJKLanguage: true
 
 免费开源的浏览器双语翻译插件，让所有人都能够拥有基于母语般的阅读体验，`沉浸式翻译开源替代`。
 
-![20250815143548_PixPin](assets/20250815143548_PixPin-20250815143559-4naao2u.webp)
+![20250815143548_PixPin](/images/2025/20250815143548_PixPin-20250815143559-4naao2u.webp)
 
 ### 5. [AIClient-2-API](https://github.com/justlovemaki/AIClient-2-API)
 
@@ -58,18 +58,18 @@ isCJKLanguage: true
 
 Ech0 是一款专为轻量级分享而设计的开源自托管平台，支持快速发布与分享你的想法、文字与链接。简单直观的操作界面，轻松管理你的内容，让分享变得更加自由，确保数据完全掌控，随时随地与世界连接。（还在开发初期，不完善，不支持标签）
 
-![20250815112851_PixPin](assets/20250815112851_PixPin-20250815112906-un4m5b1.webp)
+![20250815112851_PixPin](/images/2025/20250815112851_PixPin-20250815112906-un4m5b1.webp)
 
 ### 7. [dockerCopilot](https://github.com/onlyLTY/dockerCopilot)
 
 一个主打便捷的docker容器管理工具，一键更新容器。
 
-![20250815143356_PixPin](assets/20250815143356_PixPin-20250815143516-9h3um5d.webp)
+![20250815143356_PixPin](/images/2025/20250815143356_PixPin-20250815143516-9h3um5d.webp)
 
 ### 8. [HubProxy](https://github.com/sky22333/hubproxy)
 
 基于Go的自托管轻量级、高性能的多功能代理加速服务，提供 Docker 镜像加速、GitHub 加速、下载离线镜像等功能。单域名实现所有功能，支持仓库审计。流式转发，无缓存。
 
-![20250815155954_PixPin](assets/20250815155954_PixPin-20250815160010-wga14r0.webp)
+![20250815155954_PixPin](/images/2025/20250815155954_PixPin-20250815160010-wga14r0.webp)
 
 ‍
