@@ -2,11 +2,10 @@
 title: "Hugo 博客使用Cloudflare Pages部署"
 date: "2025-08-11T21:56:05+08:00"
 draft: false
-categories:
-  - "博客"
 tags:
-  - "默认"
-author: "Tabor"
+  - 建站
+  - Hugo
+keywords: 建站,Hugo
 ---
 
 Cloudflare 提供了 Pages 服务来托管 Hugo 站点。只需要从 Git 仓库构建并托管到 Cloudflare 的 CDN 即可。
