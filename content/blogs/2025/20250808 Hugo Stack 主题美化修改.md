@@ -410,7 +410,6 @@ html {
 ### 在归档页增加标签云Tags
 
 在layouts/_default/archives.html里的`</header>`后面加上如下代码：
-
 ```html
 {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "tags" -}}
 {{- $terms := $taxonomy.Pages -}}
@@ -655,3 +654,8 @@ p > img {
 
 1. [Hugo Stack 魔改美化](https://www.xalaok.top/post/stack-modify/)
 2. [Hugo Stack 主题装修笔记 Part 3](https://thirdshire.com/hugo-stack-renovation-part-three/)
+
+---
+**上面推荐的文章你是否喜欢呢，如果有什么好的推荐或者想要了解最新的工具，欢迎在评论区留言和大家一起交流！喜欢记得关注公众号【可持续学园】，我们下期再见！**    👇
+
+![微信公众号](https://img.sdgarden.top/blog/2025/08/微信公众号-20250813124220-913xdfk.webp)

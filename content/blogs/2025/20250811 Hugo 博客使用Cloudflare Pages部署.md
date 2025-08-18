@@ -127,3 +127,7 @@ languageCode = "en-us"
 title = "My Hugo Site"
 theme = "my-theme"
 ```
+---
+**上面推荐的文章你是否喜欢呢，如果有什么好的推荐或者想要了解最新的工具，欢迎在评论区留言和大家一起交流！喜欢记得关注公众号【可持续学园】，我们下期再见！**    👇
+
+![微信公众号](https://img.sdgarden.top/blog/2025/08/微信公众号-20250813124220-913xdfk.webp)
