@@ -74,3 +74,9 @@
 #  name = "Series选集"
 #  pageRef = "series"
 #  weight = 20
+
+[[footer]]
+  identifier = "analytics"
+  name = "📈"
+  url = "https://app.seline.com/share/blog.sdgarden.top"
+  weight = 20

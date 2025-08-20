@@ -73,3 +73,9 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+[[footer]]
+  identifier = "analytics"
+  name = "📈"
+  url = "https://app.seline.com/share/blog.sdgarden.top"
+  weight = 20
