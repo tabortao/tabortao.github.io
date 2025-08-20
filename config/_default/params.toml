@@ -50,7 +50,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/iceland.jpg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 12
+  showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "blogs"
   cardView = true
@@ -81,7 +81,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   invertPagination = true
   showReadingTime = true
   showTableOfContents = true # 显示目录
-  showRelatedContent = false
+  showRelatedContent = true
   relatedContentLimit = 3
   showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
@@ -89,7 +89,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showWordCount = true
   sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
   showZenMode = true
-  showComments = false
+  showComments = true
 
 [list]
   showHero = true
@@ -153,8 +153,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # enableTrackEvent = true
 
 [selineAnalytics]
-  # token = "XXXXXX"
-  # enableTrackEvent = true
+  token = "ed27533d741ae8f"
+  enableTrackEvent = true
 
 [buymeacoffee]
   # identifier = ""

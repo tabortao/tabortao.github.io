@@ -11,18 +11,18 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "📖Blog"
   pageRef = "/blogs"
   weight = 10
 
 [[main]]
-  name = "Tags"
+  name = "🏷Tags"
   pageRef = "tags"
   weight = 20 
 
 [[main]]
- name = "About"
- pageRef = "/about"
+ name = "💬About"
+ pageRef = "/page/about"
  weight = 30
 
 #[[main]]

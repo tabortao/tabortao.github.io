@@ -11,23 +11,23 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "文章"
+ name = "📖文章"
  pageRef = "/blogs"
  weight = 10
 
 # 配置标签
 [[main]]
-  name = "标签"
+  name = "🏷标签"
   pageRef = "tags"
   weight = 20 
 
 #[[main]]
-  # name = "类别"
+  # name = "🗂类别"
   # pageRef = "categories"
   # weight = 30
 
 [[main]]
- name = "关于"
+ name = "💬关于"
  pageRef = "/page/about"
  weight = 40
 
