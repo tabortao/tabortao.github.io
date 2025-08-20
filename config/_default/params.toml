@@ -154,7 +154,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [selineAnalytics]
   token = "ed27533d741ae8f"
-  enableTrackEvent = true
+  enableTrackEvent = false
 
 [buymeacoffee]
   # identifier = ""
