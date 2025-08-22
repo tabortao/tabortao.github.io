@@ -15,6 +15,11 @@
  pageRef = "/blogs"
  weight = 10
 
+[[main]]
+  name = "📰趣玩周刊"
+  pageRef = "tags/趣玩周刊"
+  weight = 20 
+
 # 配置标签
 [[main]]
   name = "🏷标签"
